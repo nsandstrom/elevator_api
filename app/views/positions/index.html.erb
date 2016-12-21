@@ -2,7 +2,7 @@
 <thead>
 <tr>
 <td>Elevator</td>
-<td>Position</td>
+<td>Floor</td>
 <td>Time</td>
 </tr>
 </thead>
@@ -10,7 +10,7 @@
 <% @positions.each do |position|  %>
 <tr>
 <td><%= position.elevator_id %></td>
-<td><%= position.position %></td>
+<td><%= position.floor %></td>
 <td><%= position.timestamp %></td>
 </tr>
 <% end -%>
