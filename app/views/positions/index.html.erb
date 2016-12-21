@@ -1,0 +1,18 @@
+<table>
+<thead>
+<tr>
+<td>Elevator</td>
+<td>Position</td>
+<td>Time</td>
+</tr>
+</thead>
+<tbody>
+<% @positions.each do |position|  %>
+<tr>
+<td><%= position.elevator_id %></td>
+<td><%= position.position %></td>
+<td><%= position.timestamp %></td>
+</tr>
+<% end -%>
+</tbody>
+</table>
